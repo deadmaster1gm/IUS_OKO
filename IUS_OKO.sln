@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35919.96 d17.13
+VisualStudioVersion = 17.14.36109.1 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IUS_OKO", "IUS_OKO.csproj", "{EC4383CF-D793-40C2-9F5A-D6120A3399BA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IUS_OKO", "IUS_OKO.csproj", "{2154CF09-3A86-4F07-96FF-E7C3C1DB6F2E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EC4383CF-D793-40C2-9F5A-D6120A3399BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EC4383CF-D793-40C2-9F5A-D6120A3399BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EC4383CF-D793-40C2-9F5A-D6120A3399BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EC4383CF-D793-40C2-9F5A-D6120A3399BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2154CF09-3A86-4F07-96FF-E7C3C1DB6F2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2154CF09-3A86-4F07-96FF-E7C3C1DB6F2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2154CF09-3A86-4F07-96FF-E7C3C1DB6F2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2154CF09-3A86-4F07-96FF-E7C3C1DB6F2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {1BCB0AEF-ED70-4206-862B-88F795233196}
+		SolutionGuid = {C3FD1A29-5A81-4DB7-8B16-9C99828A5AEA}
 	EndGlobalSection
 EndGlobal
