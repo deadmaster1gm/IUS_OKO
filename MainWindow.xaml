@@ -9137,7 +9137,7 @@
                         <RectangleGeometry Rect="0.0,0.0,1600.0,900.0"/>
                     </Canvas.Clip>
                     <Rectangle RadiusX="4.0949745" RadiusY="4.0949745" Canvas.Left="207.22514" Canvas.Top="218.56256" Width="32.711483" Height="115.62283" Fill="#ff484537"/>
-                    <Rectangle RadiusX="0.0" RadiusY="0.0" Canvas.Left="210.95134" Canvas.Top="222.44446" Width="25.531923" Height="26.69083" Fill="#ffff0000"/>
+                    <Rectangle Name="EmergencyLevelOKO1" RadiusX="0.0" RadiusY="0.0" Canvas.Left="210.95134" Canvas.Top="222.44446" Width="25.531923" Height="26.69083" Fill="#ffff0000"/>
                     <Rectangle RadiusX="0.0" RadiusY="0.0" Canvas.Left="210.91241" Canvas.Top="276.64755" Width="25.531923" Height="26.69083" Fill="#ff00ff00"/>
                     <Rectangle RadiusX="0.0" RadiusY="0.0" Canvas.Left="211.00677" Canvas.Top="303.8432" Width="25.531923" Height="26.69083" Fill="#ff00ff00"/>
                     <Rectangle RadiusX="0.0" RadiusY="0.0" Canvas.Left="210.98497" Canvas.Top="249.42319" Width="25.531923" Height="26.69083" Fill="#ff00ff00"/>
