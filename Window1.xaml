@@ -5,12 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:IUS_OKO"
         mc:Ignorable="d"
-        Title="Window1" Height="215" Width="355" WindowStartupLocation="CenterScreen">
+        Title="Window1" Height="194" Width="233" WindowStartupLocation="CenterScreen">
     <Grid>
-        <Button Content="Emergency" HorizontalAlignment="Left" Margin="104,38,0,0" VerticalAlignment="Top" Width="146" Click="Button_Click"/>
-        <Button Content="High" HorizontalAlignment="Left" Margin="104,73,0,0" VerticalAlignment="Top" Width="146" Click="Button_Click_1"/>
-        <Button Content="Average" HorizontalAlignment="Left" Margin="104,108,0,0" VerticalAlignment="Top" Width="146" Click="Button_Click_2"/>
-        <Button Content="Low" HorizontalAlignment="Left" Margin="104,141,0,0" VerticalAlignment="Top" Width="146" Click="Button_Click_3"/>
-
+        <Button Content="EmergencyLevel" HorizontalAlignment="Left" Margin="25,27,0,0" VerticalAlignment="Top" Width="177" Click="Button_Click"/>
+        <Button Content="HighLevel" HorizontalAlignment="Left" Margin="25,61,0,0" VerticalAlignment="Top" Width="177" Click="Button_Click"/>
+        <Button Content="AverageLevel" HorizontalAlignment="Left" Margin="25,95,0,0" VerticalAlignment="Top" Width="177" Click="Button_Click"/>
+        <Button Content="LowLevel" HorizontalAlignment="Left" Margin="25,128,0,0" VerticalAlignment="Top" Width="177" Click="Button_Click"/>
     </Grid>
 </Window>
