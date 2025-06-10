@@ -9137,10 +9137,10 @@
                         <RectangleGeometry Rect="0.0,0.0,1600.0,900.0"/>
                     </Canvas.Clip>
                     <Rectangle RadiusX="4.0949745" RadiusY="4.0949745" Canvas.Left="207.22514" Canvas.Top="218.56256" Width="32.711483" Height="115.62283" Fill="#ff484537"/>
-                    <Rectangle Name="EmergencyLevelOKO1" RadiusX="0.0" RadiusY="0.0" Canvas.Left="210.95134" Canvas.Top="222.44446" Width="25.531923" Height="26.69083" Fill="#ffff0000"/>
-                    <Rectangle RadiusX="0.0" RadiusY="0.0" Canvas.Left="210.91241" Canvas.Top="276.64755" Width="25.531923" Height="26.69083" Fill="#ff00ff00"/>
-                    <Rectangle RadiusX="0.0" RadiusY="0.0" Canvas.Left="211.00677" Canvas.Top="303.8432" Width="25.531923" Height="26.69083" Fill="#ff00ff00"/>
-                    <Rectangle RadiusX="0.0" RadiusY="0.0" Canvas.Left="210.98497" Canvas.Top="249.42319" Width="25.531923" Height="26.69083" Fill="#ff00ff00"/>
+                    <Rectangle Name="EmergencyLevelOKO1" Visibility="Visible" RadiusX="0.0" RadiusY="0.0" Canvas.Left="210.95134" Canvas.Top="222.44446" Width="25.531923" Height="26.69083" Fill="#ffff0000"/>
+                    <Rectangle Name="HighLevelOKO1" Visibility="Visible" RadiusX="0.0" RadiusY="0.0" Canvas.Left="210.91241" Canvas.Top="276.64755" Width="25.531923" Height="26.69083" Fill="#ff00ff00"/>
+                    <Rectangle Name="AverageLevelOKO1" Visibility="Visible" RadiusX="0.0" RadiusY="0.0" Canvas.Left="211.00677" Canvas.Top="303.8432" Width="25.531923" Height="26.69083" Fill="#ff00ff00"/>
+                    <Rectangle Name="LowLevelOKO1" Visibility="Visible" RadiusX="0.0" RadiusY="0.0" Canvas.Left="210.98497" Canvas.Top="249.42319" Width="25.531923" Height="26.69083" Fill="#ff00ff00"/>
                     <Path Stroke="#ff000000" StrokeThickness="0.765" StrokeDashCap="Flat">
                         <Path.Data>
                             <PathGeometry Figures="m 210.698 303.555 h 26.1475 V 330.708 H 210.698 Z m 0.009 -27.1728 h 26.1475 v 27.1532 H 210.707 Z m 0.002 -27.1558 h 26.1475 v 27.1532 H 210.709 Z m 0.009 -27.1728 h 26.1475 v 27.1532 h -26.1483 z" FillRule="Nonzero"/>

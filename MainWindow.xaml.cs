@@ -24,8 +24,21 @@ namespace IUS_OKO
         public MainWindow()
         {
             InitializeComponent();
-            Window1 window = new Window1();
-            window.Show();
+
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                var parameters = db.ParameterOKO.Find(1);
+                if (parameters.ParameterData)
+                {
+                    Rectangle EmergencyLevelOKO1 = (Rectangle)FindName("EmergencyLevelOKO1");
+                    EmergencyLevelOKO1.Visibility = Visibility.Visible;
+                }
+                else
+                {
+                    Rectangle EmergencyLevelOKO1 = (Rectangle)FindName("EmergencyLevelOKO1");
+                    EmergencyLevelOKO1.Visibility = Visibility.Hidden;
+                }
+            }
         }
     }
 }
