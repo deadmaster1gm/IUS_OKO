@@ -1,18 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+﻿using System.Windows;
+using Microsoft.AspNetCore.SignalR.Client;
 
 namespace IUS_OKO
 {
@@ -21,24 +8,23 @@ namespace IUS_OKO
     /// </summary>
     public partial class MainWindow : Window
     {
+        HubConnection connection;
         public MainWindow()
         {
             InitializeComponent();
+            
+            connection = new HubConnectionBuilder()
+                .WithUrl("https://localhost:7098/ius_oko")
+                .Build();
 
-            using (ApplicationContext db = new ApplicationContext())
+            connection.On<string>("Receive", (message) =>
             {
-                var parameters = db.ParameterOKO.Find(1);
-                if (parameters.ParameterData)
+                Dispatcher.Invoke(() =>
                 {
-                    Rectangle EmergencyLevelOKO1 = (Rectangle)FindName("EmergencyLevelOKO1");
-                    EmergencyLevelOKO1.Visibility = Visibility.Visible;
-                }
-                else
-                {
-                    Rectangle EmergencyLevelOKO1 = (Rectangle)FindName("EmergencyLevelOKO1");
-                    EmergencyLevelOKO1.Visibility = Visibility.Hidden;
-                }
-            }
+                    var newMessage = $"{message}";
+                    chatbox.Items.Insert(0, newMessage);
+                });
+            });
         }
     }
 }
